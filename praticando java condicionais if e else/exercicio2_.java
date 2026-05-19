@@ -10,7 +10,7 @@
 
 import java.util.Scanner;
 
-public class exercicio2 {
+public class exercicio2_ {
     public static void main (String[] args) {
 
         double mediaAluno;
