@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class exercicio4 {
     public static void main (String[] args) {
 
-        int numero1, numero2;
+        int numero1, numero2, maiorNumero;
         Scanner scan = new Scanner(System.in);
 
         System.out.printf ("Digite o primeiro número\n");
@@ -18,7 +18,8 @@ public class exercicio4 {
 
         if (numero1 > numero2 ) {
 
-            System.out.printf ("%d é maior que %d", numero1, numero2);
+            maiorNumero = numero1;
+            System.out.printf ("O maior numero é %d", maiorNumero);
         }
 
         if (numero1 == numero2) {
@@ -28,7 +29,8 @@ public class exercicio4 {
 
         if (numero1 < numero2) {
 
-            System.out.printf ("%d é menor que %d", numero1, numero2);
+            maiorNumero = numero2;
+            System.out.printf ("O maior numero é %d", maiorNumero);
         }
 
         scan.close();
